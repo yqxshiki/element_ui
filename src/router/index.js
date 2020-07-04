@@ -10,6 +10,11 @@ const routes = [
     name: 'Home',
     component: Home
   },
+  {
+    path: "/calendar_yu",
+    name: "calendar_yu",
+    component: () => import('../components/calendar_yu.vue')
+  }
 ]
 
 const router = new VueRouter({
